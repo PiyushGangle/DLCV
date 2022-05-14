@@ -1,4 +1,11 @@
 # End-to-end environment sound classification using 1D CNN
+Sound classification is one of the most widely used applications in Audio Deep Learning. It involves
+learning to classify sounds and to predict the category of that sound. he voice. Our motivation was
+to build an audio classifier which will be better than existing state of the art classifiers. In order
+achieve this goal we applied ensemble method to combine 1D and 2D convolution neural network. 1D
+CNN considers amplitude based audio features whereas 2D CNN captures spectral features, hence final
+classification decision will be made considering both the features which will effectively increase overall
+accuracy of classifier.
 
 ## literature
 
